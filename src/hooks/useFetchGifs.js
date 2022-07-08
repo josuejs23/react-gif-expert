@@ -13,7 +13,6 @@ export const useFetchGifs = (category)=>{
         console.log('newImages=>',newImages)
         setImages(newImages);
         setIsLoading(false);
-        setI
         console.log('images XD => ',images)
     }
 

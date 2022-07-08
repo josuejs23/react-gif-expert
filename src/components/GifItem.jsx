@@ -8,7 +8,7 @@ export const GifItem = ({title, url}) => {
     )
 }
 
-// GifItem.propTypes = {
-//     title: PropTypes.string.isRequired,
-//     url: PropTypes.string.isRequired
-// }
+GifItem.propTypes = {
+    title: PropTypes.string.isRequired,
+    url: PropTypes.string.isRequired
+}
